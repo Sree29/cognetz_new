@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "thumb": "final-project-mockup.jpg",
+        "projectName": "ABBA Printing Press",
+        "subTitle1": "ABBA is a printing solutions website",
+        "subTitle2": "built to showcase high-quality customized print services.",
+        "info": "Web Development",
+        "date": "May 2026",
+        "website": "http://www.abbaprinting.net"
+    },
+    {
+        "id": 2,
+        "thumb": "final-project-mockup.jpg",
+        "projectName": "Esperer motors",
+        "subTitle1": "Esperer is an automotive styling website built",
+        "subTitle2": "to showcase and sell premium body kits, wheels, and accessories.",
+        "info": "E-Commerce",
+        "date": "May 2026",
+        "website": "https://esperermotors.com"
+    },
+    {
+        "id": 3,
+        "thumb": "final-project-mockup.jpg",
+        "projectName": "Neet India Accademy",
+        "subTitle1": "Neet India Academy is an educational website developed",
+        "subTitle2": "to offer structured, high-quality courses that support personal and academic growth.",
+        "info": "Web Development",
+        "date": "May 2026",
+        "website": "https://neetindiaacademy.com"
+    },
+    {
+        "id": 4,
+        "thumb": "final-project-mockup.jpg",
+        "projectName": "Noveltyuae",
+        "subTitle1": "Novelty is a custom gifting website built to",
+        "subTitle2": "showcase personalized gifts and promotional items with creative flair.",
+        "info": "Web Development",
+        "date": "May 2026",
+        "website": "https://noveltyuae.com"
+    },
+    {
+        "id": 5,
+        "thumb": "final-project-mockup.jpg",
+        "projectName": "Marvels",
+        "subTitle1": "Marvel Technos is a tech service website designed",
+        "subTitle2": "to provide reliable computer repair and IT solutions for both home and business needs.",
+        "info": "Web Development",
+        "date": "May 2026",
+        "website": "https://marveltech.co.in"
+    },
+    {
+        "id": 6,
+        "thumb": "final-project-mockup.jpg",
+        "projectName": "Technibs",
+        "subTitle1": "Technibs Engineering is a construction solutions website",
+        "subTitle2": "focused on sustainable, high-quality pre-engineered and industrial structures.",
+        "info": "Web Development",
+        "date": "May 2026",
+        "website": "https://www.technibs.co.in"
+    }
+]

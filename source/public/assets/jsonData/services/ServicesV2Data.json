@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "activeClass": "active",
+        "thumb": "service_seo.png",
+        "title": "Forward-Thinking Innovation",
+        "text": "We reject the status quo, constantly exploring emerging technologies and progressive design patterns to craft future-proof digital systems. By turning complex technological challenges into elegant business assets, we keep your enterprise steps ahead of the curve."
+    },
+    {
+        "id": 2,
+        "activeClass": "",
+        "thumb": "service_ecommerce.png",
+        "title": "Result-Driven Strategy",
+        "text": "We blend absolute creative ingenuity with exhaustive analytics to ensure every design choice serves a precise business purpose. By setting measurable growth benchmarks and continuously optimizing, we transform digital interactions into powerful, high-converting revenue streams."
+    },
+    {
+        "id": 3,
+        "activeClass": "",
+        "thumb": "service_mobile.png",
+        "title": "Transparent Synergy",
+        "text": "We operate as a true extension of your enterprise, maintaining absolute open transparency, detailed progress clarity, and direct collaboration. By prioritizing your long-term success parameters, we forge resilient, high-performance partnerships built on trust."
+    }
+]

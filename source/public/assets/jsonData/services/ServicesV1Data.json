@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "activeClass": "active",
+        "name": "Web Development",
+        "thumb": "service_web_dev.png",
+        "thumbFull1": "service-single1-1.jpg",
+        "thumbFull2": "service-single1-2.jpg",
+        "text": "Elevate your online presence with bespoke websites that seamlessly blend creativity and functionality, designed to amplify your brand’s impact.",
+        "price": "3000",
+        "icon": "service-icon1.svg",
+        "subServices": [
+            {
+                "title": "E-commerce Solutions",
+                "text": "We believe that web development is an art form, blending technology with creativity to create captivating digital experiences. Let us design a website for you that engages your audience and sets you apart from the competition."
+            },
+            {
+                "title": "PHP Development",
+                "text": "Our team of experienced professionals specializes in PHP development, with expertise in Ajax, jQuery, MySQL, JavaScript, CSS, and HTML. We'll bring your web-based projects to life with outstanding professionalism and attention to detail."
+            },
+            {
+                "title": "Shopify Development",
+                "text": "Transform your online retail presence with our Shopify expertise. We specialize in crafting captivating e-commerce stores that drive sales and engage customers. From sleek storefront design to seamless payment integration, we ensure a hassle-free shopping experience."
+            },
+            {
+                "title": "React Development",
+                "text": "Leverage React's power for dynamic web apps. We craft highly interactive user interfaces with its component-based architecture. Whether it's a single-page app or a complex solution, we deliver scalable React development tailored to you."
+            },
+            {
+                "title": "Laravel Development",
+                "text": "Harness the power of one of the most popular PHP-based open-source frameworks with our Laravel development services. From design to deployment, we'll build your website with precision and efficiency."
+            },
+            {
+                "title": "WordPress Development",
+                "text": "Create a stunning website with WordPress, the perfect interface between your brand and your audience. Our WordPress development services are designed to help you promote your business and achieve optimal results."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "activeClass": "",
+        "name": "Digital Marketing",
+        "thumb": "service_marketing.png",
+        "thumbFull1": "service-single2-1.jpg",
+        "thumbFull2": "service-single2-2.jpg",
+        "text": "Expand your digital footprint and maximize your online potential with our comprehensive digital marketing services tailored to your unique needs.",
+        "price": "4000",
+        "icon": "service-icon2.svg"
+    },
+    {
+        "id": 3,
+        "activeClass": "",
+        "name": "Video Production",
+        "thumb": "service_video.png",
+        "thumbFull1": "service-single3-1.jpg",
+        "thumbFull2": "service-single3-2.jpg",
+        "text": "Communicate your message effectively with professionally crafted video content that resonates with your audience and drives action.",
+        "price": "3500",
+        "icon": "service-icon3.svg"
+    },
+    {
+        "id": 4,
+        "activeClass": "",
+        "name": "Search Engine Optimization (SEO)",
+        "thumb": "service_seo.png",
+        "thumbFull1": "service-single4-1.jpg",
+        "thumbFull2": "service-single4-2.jpg",
+        "text": "Increase organic visibility and drive targeted traffic to your website with our proven SEO strategies, ensuring your business stands out amidst the competition.",
+        "price": "4500",
+        "icon": "service-icon4.svg"
+    },
+    {
+        "id": 5,
+        "activeClass": "",
+        "name": "E-commerce Solutions",
+        "thumb": "service_ecommerce.png",
+        "thumbFull1": "service-single1-1.jpg",
+        "thumbFull2": "service-single1-2.jpg",
+        "text": "Embark on a successful online journey with our robust e-commerce platforms designed to attract and retain customers effortlessly.",
+        "price": "5000",
+        "icon": "service-icon1.svg"
+    },
+    {
+        "id": 6,
+        "activeClass": "",
+        "name": "Mobile App Development",
+        "thumb": "service_mobile.png",
+        "thumbFull1": "service-single2-1.jpg",
+        "thumbFull2": "service-single2-2.jpg",
+        "text": "Elevate your business with exclusive mobile apps designed to enhance user experience and drive brand loyalty.",
+        "price": "6000",
+        "icon": "service-icon2.svg"
+    }
+]

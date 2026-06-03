@@ -1,0 +1,32 @@
+import AboutV2 from "@/components/about/AboutV2";
+import WhyChooseUs from "@/components/about/WhyChooseUs";
+import ContactV1 from "@/components/contact/ContactV1";
+import HeroV2 from "@/components/hero/AboutHero";
+import LayoutV3 from "@/components/layouts/LayoutV3";
+import PartnerV1 from "@/components/partner/PartnerV1";
+import ProcessV1 from "@/components/process/ProcessV1";
+import ServicesV2 from "@/components/services/ServicesV2";
+
+export const metadata = {
+    title: "Cognetz - About Us"
+};
+
+const AboutPage = () => {
+    return (
+        <>
+            <div className="aixor-main about-page">
+                <LayoutV3>
+                    <HeroV2 title="About Us" />
+                    <AboutV2 />
+                    <WhyChooseUs />
+                    <ServicesV2 />
+                    <ProcessV1 />
+                    <ContactV1 />
+                    <PartnerV1 />
+                </LayoutV3>
+            </div>
+        </>
+    );
+};
+
+export default AboutPage;

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "number": "01.",
+        "thumb": "process_research.png",
+        "alt": "Client Research",
+        "name": "Client Research",
+        "designation": "Business Understanding",
+        "description": "No successful web development agency can operate without thorough research and a deep understanding of the client's business. We conduct comprehensive client research to grasp the intricacies of your business and identify potential opportunities that can deliver exceptional results.",
+        "delay": 0
+    },
+    {
+        "id": 2,
+        "number": "02.",
+        "thumb": "process_proposal.png",
+        "alt": "Proposal",
+        "name": "Proposal",
+        "designation": "Tailored Roadmap",
+        "description": "Our detailed proposal will outline the strategies for initiating web development, the roadmap to maximize your online presence, cost-effective solutions to reach a wider audience, and optimization techniques to enhance user engagement and conversion.",
+        "delay": 100
+    },
+    {
+        "id": 3,
+        "number": "03.",
+        "thumb": "process_strategy.png",
+        "alt": "Strategies",
+        "name": "Strategies",
+        "designation": "Goal-Driven Solutions",
+        "description": "Our web development approach is carefully tailored to your specific business type and operational focus, crafted through collaborative sessions with our skilled team of developers, designers, and strategists to ensure effective, goal-driven solutions.",
+        "delay": 200
+    },
+    {
+        "id": 4,
+        "number": "04.",
+        "thumb": "process_execution.png",
+        "alt": "Execution",
+        "name": "Execution",
+        "designation": "Meticulous Delivery",
+        "description": "Executing web development projects requires meticulous planning and execution. We ensure each task is meticulously planned and executed to achieve the desired outcomes for your digital presence.",
+        "delay": 300
+    },
+    {
+        "id": 5,
+        "number": "05.",
+        "thumb": "process_analysis.png",
+        "alt": "Analysis & Refinements",
+        "name": "Analysis & Refinements",
+        "designation": "Continuous Improvement",
+        "description": "We continually analyze the performance of your website to pinpoint any areas for improvement and make necessary adjustments. Our iterative approach ensures that your website evolves to meet your business goals effectively.",
+        "delay": 400
+    },
+    {
+        "id": 6,
+        "number": "06.",
+        "thumb": "process_reporting.png",
+        "alt": "Reporting",
+        "name": "Reporting",
+        "designation": "Analytics & Progress",
+        "description": "Our project manager will provide detailed analytics and progress updates, along with recommendations to optimize your web solutions. We're committed to delivering quality web development and keeping you informed. You'll see tangible results in no time.",
+        "delay": 500
+    }
+]

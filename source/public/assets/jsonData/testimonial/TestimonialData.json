@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "text": "We’re very happy with our eCommerce website. It showcases our clothing collection beautifully and offers a smooth shopping experience.",
+        "thumb": "testimonial1.png",
+        "name": "Noooled",
+        "designation": "eCommerce Brand"
+    },
+    {
+        "id": 2,
+        "text": "We’re very happy with our website. It beautifully showcases our furniture collections for both homes and commercial spaces.",
+        "thumb": "testimonial2.png",
+        "name": "Zedez",
+        "designation": "Furniture Brand"
+    },
+    {
+        "id": 3,
+        "text": "The custom website developed for our pet shop perfectly combines creativity and functionality. Our online presence has never been stronger!",
+        "thumb": "testimonial1.png",
+        "name": "Woofy",
+        "designation": "Pet Shop"
+    },
+    {
+        "id": 4,
+        "text": "We’re very happy with our new website. It’s clean, professional, and perfectly represents our brand. Great work by the development team!",
+        "thumb": "testimonial2.png",
+        "name": "ABBA Printing Press",
+        "designation": "Printing Press"
+    },
+    {
+        "id": 5,
+        "text": "Their e-commerce platform was easy to use and helped us attract and retain customers. Our online sales have skyrocketed!",
+        "thumb": "testimonial1.png",
+        "name": "Novelty",
+        "designation": "E-commerce Brand"
+    },
+    {
+        "id": 6,
+        "text": "We’re extremely satisfied with our new website. It’s professional, well-structured, and clearly reflects our firm’s values. Excellent work by the team.",
+        "thumb": "testimonial2.png",
+        "name": "Muralee & Thushar",
+        "designation": "Chartered Accountants"
+    },
+    {
+        "id": 7,
+        "text": "We’re extremely happy with our website. It reflects our mission clearly and presents our programs professionally. Great work by the team.",
+        "thumb": "testimonial1.png",
+        "name": "ABHA Space Research",
+        "designation": "Space Research Organization"
+    },
+    {
+        "id": 8,
+        "text": "We’re extremely happy with our website. It clearly reflects our commitment to hygiene, authenticity, and quality.",
+        "thumb": "testimonial2.png",
+        "name": "SPINNERS",
+        "designation": "Verified Client"
+    },
+    {
+        "id": 9,
+        "text": "We’re extremely happy with our website. It beautifully reflects our landscaping philosophy and design values.",
+        "thumb": "testimonial1.png",
+        "name": "Benglavil",
+        "designation": "Verified Client"
+    },
+    {
+        "id": 10,
+        "text": "Extremely satisfied with the website. It reflects our villa’s quality and warmth.",
+        "thumb": "testimonial2.png",
+        "name": "Meadows villa",
+        "designation": "Verified Client"
+    }
+]
