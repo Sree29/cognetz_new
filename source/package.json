@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/swc-win32-x64-msvc": "^16.2.6",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.8",
     "gsap": "^3.13.0",
