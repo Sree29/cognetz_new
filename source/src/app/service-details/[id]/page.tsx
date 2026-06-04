@@ -6,7 +6,7 @@ import TestimonialV1 from '@/components/testimonial/TestimonialV1';
 import LayoutV3 from '@/components/layouts/LayoutV3';
 
 export const metadata = {
-    title: "Aixor - Service Details"
+    title: "Cognetz - Service Details"
 };
 
 const ServiceDetailsPage = () => {

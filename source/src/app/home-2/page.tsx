@@ -8,7 +8,7 @@ import ServicesV1 from "@/components/services/ServicesV1";
 import TestimonialV1 from "@/components/testimonial/TestimonialV1";
 
 export const metadata = {
-    title: "Aixor - Home 2 Page"
+    title: "Cognetz - Home 2 Page"
 };
 
 const Home2Page = () => {

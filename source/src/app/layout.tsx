@@ -31,7 +31,10 @@ const urbanist = Urbanist({
 })
 
 export const metadata: Metadata = {
-  title: "Aixor - Marketing Agency React NextJS Template"
+  title: "Cognetz - Marketing Agency",
+  icons: {
+    icon: "/assets/images/cognetz_logo.png",
+  }
 };
 
 export default function RootLayout({
