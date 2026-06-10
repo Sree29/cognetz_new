@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import logo1 from "@/assets/images/cognetz_logo.png";
 import useNotchScrollLink from "@/hooks/useNotchScrollLink";
+import ThemeToggle from './ThemeToggle';
 
 const HeaderV3 = () => {
 
@@ -61,7 +62,7 @@ const HeaderV3 = () => {
 
                     {/* Sidebar top: Contact Info */}
                     <div className="header-sidebar-top" style={{ padding: "36px 64px 0 64px" }}>
-                        <h4 style={{ color: "#ffffff", fontSize: "16px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", marginBottom: "20px" }}>
+                        <h4 style={{ color: "var(--primary)", fontSize: "16px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", marginBottom: "20px" }}>
                             Contact Info
                         </h4>
                         <ul style={{ display: "flex", flexDirection: "column", gap: "16px", padding: 0 }}>
@@ -186,6 +187,7 @@ const HeaderV3 = () => {
                                     Kerala: +91 7907249553
                                 </a>
                             </div>
+                            <ThemeToggle />
                             <button className="three-dots-btn" onClick={handleHamburgClick} aria-label="Toggle Menu">
                                 <span></span>
                                 <span></span>

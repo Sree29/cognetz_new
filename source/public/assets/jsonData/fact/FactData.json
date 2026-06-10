@@ -13,7 +13,7 @@
         "thumb": "fact_projects.png",
         "delay": "200",
         "title": "Completed Projects",
-        "end": "25"
+        "end": "225"
     },
     {
         "id": 3,
@@ -29,6 +29,6 @@
         "thumb": "fact_clients.png",
         "delay": "600",
         "title": "Satisfied Clients",
-        "end": "4"
+        "end": "300"
     }
 ]

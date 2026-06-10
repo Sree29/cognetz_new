@@ -78,6 +78,22 @@ const WhyChooseUs = () => {
                                 border-color: rgba(255, 255, 255, 0.3);
                                 box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
                             }
+                            /* Light Theme Overrides */
+                            [data-theme="light"] .why-choose-sec {
+                                background: #ffffff;
+                            }
+                            [data-theme="light"] .reason-card {
+                                background: linear-gradient(180deg, #ffffff 0%, #f7f9fa 100%);
+                                border: 1px solid rgba(0, 0, 0, 0.1);
+                            }
+                            [data-theme="light"] .reason-card:hover {
+                                border-color: rgba(0, 0, 0, 0.2);
+                                box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+                            }
+                            [data-theme="light"] .reason-card .icon-wrap {
+                                background: rgba(0, 0, 0, 0.03) !important;
+                                border: 1px solid rgba(0, 0, 0, 0.1) !important;
+                            }
                             @media (max-width: 1199px) {
                                 .why-choose-sec {
                                     padding: 80px 42px;

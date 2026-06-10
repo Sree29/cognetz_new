@@ -41,6 +41,9 @@ const AnimatedText = ({ children }: { children: React.ReactNode }) => {
         elements.forEach((el) => {
             splitTextManually(el as HTMLElement);
 
+            const isLight = typeof window !== "undefined" && document.documentElement.getAttribute("data-theme") === "light";
+            const startOpacity = isLight ? 0.45 : 0.2;
+
             const chars = el.querySelectorAll(".char");
             gsap.from(chars, {
                 scrollTrigger: {
@@ -50,7 +53,7 @@ const AnimatedText = ({ children }: { children: React.ReactNode }) => {
                     scrub: true,
                     markers: false,
                 },
-                opacity: 0.2,
+                opacity: startOpacity,
                 stagger: 0.05,
             });
         });

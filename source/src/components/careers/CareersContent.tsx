@@ -356,6 +356,76 @@ const CareersContent = () => {
                         font-size: 18px;
                     }
                 }
+                /* Light Theme Overrides */
+                [data-theme="light"] .careers-wrap {
+                    background: #ffffff;
+                    color: var(--primary);
+                }
+                [data-theme="light"] .culture-right {
+                    border-color: rgba(0, 0, 0, 0.08);
+                }
+                [data-theme="light"] .benefit-card {
+                    background: rgba(0, 0, 0, 0.02);
+                    border-color: rgba(0, 0, 0, 0.06);
+                }
+                [data-theme="light"] .benefit-card:hover {
+                    background: rgba(0, 0, 0, 0.04);
+                    border-color: rgba(0, 0, 0, 0.15);
+                    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+                }
+                [data-theme="light"] .benefit-card-icon {
+                    background: rgba(0, 0, 0, 0.04);
+                    border-color: rgba(0, 0, 0, 0.08);
+                }
+                [data-theme="light"] .benefit-card-icon svg path {
+                    fill: var(--primary) !important;
+                }
+                [data-theme="light"] .benefit-card-title {
+                    color: var(--primary);
+                }
+                [data-theme="light"] .benefit-card-desc {
+                    color: var(--secondary);
+                }
+                [data-theme="light"] .job-item {
+                    background: rgba(0, 0, 0, 0.01);
+                    border-color: rgba(0, 0, 0, 0.05);
+                }
+                [data-theme="light"] .job-item:hover {
+                    border-color: rgba(0, 0, 0, 0.12);
+                    background: rgba(0, 0, 0, 0.02);
+                }
+                [data-theme="light"] .job-item.expanded {
+                    border-color: var(--primary);
+                    background: rgba(0, 0, 0, 0.03);
+                }
+                [data-theme="light"] .job-header-title {
+                    color: var(--primary);
+                }
+                [data-theme="light"] .job-toggle-btn {
+                    border-color: rgba(0, 0, 0, 0.1);
+                }
+                [data-theme="light"] .job-toggle-btn i {
+                    color: var(--primary);
+                }
+                [data-theme="light"] .job-item.expanded .job-toggle-btn i {
+                    color: #ffffff;
+                }
+                [data-theme="light"] .job-body-inner {
+                    border-top-color: rgba(0, 0, 0, 0.05);
+                }
+                [data-theme="light"] .job-list li {
+                    color: var(--secondary);
+                }
+                [data-theme="light"] .apply-box {
+                    background: radial-gradient(circle at 10% 20%, rgba(255, 114, 0, 0.04) 0%, rgba(255, 255, 255, 0) 90%), rgba(0, 0, 0, 0.01);
+                    border-color: rgba(0, 0, 0, 0.06);
+                }
+                [data-theme="light"] .apply-box-title {
+                    color: var(--primary);
+                }
+                [data-theme="light"] .apply-box-desc {
+                    color: var(--secondary);
+                }
             `}} />
 
             <div className="careers-wrap">
@@ -373,7 +443,7 @@ const CareersContent = () => {
                                     At Cognetz, we are more than just an IT company; we are a team of dedicated professionals committed to redefining growth through innovation.
                                 </AnimatedText>
                             </div>
-                            <p style={{ color: "rgba(255, 255, 255, 0.7)", fontSize: "16px", lineHeight: "1.7", margin: 0 }}>
+                            <p style={{ color: "var(--secondary)", fontSize: "16px", lineHeight: "1.7", margin: 0 }}>
                                 At the heart of Cognetz is a culture of creativity, collaboration, and continuous learning. We foster an environment where every team member's voice is valued, ideas are encouraged, and excellence is the standard. Our team embodies a passion for innovation and a drive to deliver exceptional results for our clients.
                             </p>
                         </div>
@@ -416,7 +486,7 @@ const CareersContent = () => {
                                 <AnimatedText>
                                     Current Openings
                                 </AnimatedText>
-                                <p style={{ color: "rgba(255, 255, 255, 0.6)", fontSize: "16px", lineHeight: "1.7", marginTop: "16px", maxWidth: "800px" }}>
+                                <p style={{ color: "var(--secondary)", fontSize: "16px", lineHeight: "1.7", marginTop: "16px", maxWidth: "800px" }}>
                                     Explore our current career opportunities below. If you're passionate about innovation and ready to make an impact, we invite you to join us on our journey to redefine growth through technology.
                                 </p>
                             </div>

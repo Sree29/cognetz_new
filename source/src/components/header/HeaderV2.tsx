@@ -4,6 +4,7 @@ import Link from 'next/link';
 import logo1 from "@/assets/images/cognetz_logo.png";
 import Image from 'next/image';
 import HeaderSidebar from './HeaderSidebar';
+import ThemeToggle from './ThemeToggle';
 
 const HeaderV2 = () => {
     const [isSidebarActive, setIsSidebarActive] = useState(false);
@@ -56,6 +57,7 @@ const HeaderV2 = () => {
                                     Kerala: +91 7907249553
                                 </a>
                             </div>
+                            <ThemeToggle />
                             <button className="three-dots-btn" onClick={() => setIsSidebarActive(true)} aria-label="Toggle Menu">
                                 <span></span>
                                 <span></span>

@@ -165,6 +165,27 @@ const ServiceDetailsContent = () => {
                             margin: 0;
                             flex-grow: 1;
                         }
+                        [data-theme="light"] .service-card {
+                            background: rgba(0, 0, 0, 0.02);
+                            border: 1px solid rgba(0, 0, 0, 0.06);
+                        }
+                        [data-theme="light"] .service-card:hover {
+                            background: rgba(0, 0, 0, 0.04);
+                            border-color: rgba(0, 0, 0, 0.12);
+                            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+                        }
+                        [data-theme="light"] .service-card-title {
+                            color: #0a0a0a;
+                        }
+                        [data-theme="light"] .service-card-desc {
+                            color: rgba(0, 0, 0, 0.7);
+                        }
+                        [data-theme="light"] .feature-project-info-box .title {
+                            color: var(--tertiary) !important;
+                        }
+                        [data-theme="light"] .feature-project-info-box .subtitle {
+                            color: var(--primary) !important;
+                        }
                     `}} />
                     <div className="sub-services-grid">
                         {subServices.map((sub, index) => (

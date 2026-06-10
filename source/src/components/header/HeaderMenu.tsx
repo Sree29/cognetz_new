@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import logo1 from "@/assets/images/cognetz_logo.png";
 import Image from 'next/image';
+import ThemeToggle from './ThemeToggle';
 
 interface HeaderMenuProps {
     onMenuClick?: () => void;
@@ -54,6 +55,7 @@ const HeaderMenu = ({ onMenuClick }: HeaderMenuProps) => {
                                     Kerala: +91 7907249553
                                 </a>
                             </div>
+                            <ThemeToggle />
                             <button className="three-dots-btn" onClick={onMenuClick} aria-label="Toggle Menu">
                                 <span></span>
                                 <span></span>

@@ -3860,3 +3860,206 @@ a {
     filter: brightness(0) !important;
     transform: translateX(4px) !important;
 }
+
+/* Light Mode Support */
+[data-theme="light"] {
+    --bg-color: #ffffff;
+    --primary: #0a0a0a;
+    --secondary: #4d4d4d;
+    --tertiary: #777777;
+    --border-color: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="light"] body {
+    background: var(--bg-color);
+    color: var(--primary);
+}
+
+[data-theme="light"] .about-sec {
+    background: linear-gradient(0deg, rgba(240, 240, 240, 0) 0%, #f7f9fa 100%) !important;
+}
+
+[data-theme="light"] .team-member-box,
+[data-theme="light"] .team-cv-box,
+[data-theme="light"] .feature-project,
+[data-theme="light"] .service-single-wrap .feature-project,
+[data-theme="light"] .testimonial-box {
+    background: linear-gradient(180deg, #f7f9fa 0%, #ffffff 35%, #ffffff 65%, #f7f9fa 100%) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+[data-theme="light"] .feature-project .hover_mouse a {
+    background: linear-gradient(0deg, #f7f9fa, transparent) !important;
+}
+
+[data-theme="light"] .faq-lists,
+[data-theme="light"] .comment-box,
+[data-theme="light"] .sidebar-widget {
+    background: linear-gradient(0deg, #f7f9fa 0%, #ffffff 35%, #ffffff 65%, #f7f9fa 100%) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+[data-theme="light"] .contact-sec {
+    background-image: linear-gradient(180deg, rgba(240, 240, 240, 0) 0%, #f7f9fa 100%) !important;
+}
+
+[data-theme="light"] .theme-btn {
+    background: #0a0a0a !important;
+    color: #ffffff !important;
+    border-color: #0a0a0a !important;
+}
+
+[data-theme="light"] .theme-btn:hover {
+    background: #ffffff !important;
+    color: #0a0a0a !important;
+    border-color: #0a0a0a !important;
+}
+
+[data-theme="light"] .theme-btn img {
+    filter: invert(1) brightness(1) !important;
+}
+
+[data-theme="light"] .theme-btn:hover img {
+    filter: invert(0) brightness(0) !important;
+}
+
+
+
+[data-theme="light"] .header-sidebar-wrap .header-sidebar-content {
+    background: #ffffff !important;
+    border-left: 1px solid var(--border-color) !important;
+}
+
+[data-theme="light"] .header-sidebar-wrap .header-sidebar-content .close-header-sidebar,
+[data-theme="light"] .header-sidebar-wrap .header-sidebar-content .sidebar-menu ul li a {
+    color: var(--primary) !important;
+}
+
+[data-theme="light"] .header-sidebar-wrap .header-sidebar-content .header-sidebar-top h4,
+[data-theme="light"] .header-sidebar-wrap .header-sidebar-content .header-sidebar-top ul li {
+    color: var(--primary) !important;
+}
+
+[data-theme="light"] .header-menu-wrap .navbar .menu li .dropdown-list {
+    background: rgba(255, 255, 255, 0.98) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-theme="light"] .header-menu-wrap .navbar .menu li .dropdown-list li a {
+    color: var(--primary) !important;
+}
+
+[data-theme="light"] .three-dots-btn {
+    border-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+[data-theme="light"] .three-dots-btn span {
+    background-color: #000000 !important;
+}
+
+[data-theme="light"] .three-dots-btn:hover {
+    border-color: #000000 !important;
+    background-color: #000000 !important;
+}
+
+[data-theme="light"] .three-dots-btn:hover span {
+    background-color: #ffffff !important;
+}
+
+[data-theme="light"] .hamburg-menu {
+    border-color: #000000 !important;
+    background: #ffffff !important;
+}
+
+[data-theme="light"] .hamburg-menu span {
+    background-color: #000000 !important;
+}
+
+/* Light Theme Header text compatibility */
+[data-theme="light"] .header-menu-wrap .logo {
+    color: var(--primary) !important;
+}
+
+[data-theme="light"] .header-menu-wrap .navbar .menu li a {
+    color: var(--secondary) !important;
+}
+
+[data-theme="light"] .header-menu-wrap .navbar .menu li a:hover {
+    color: var(--primary) !important;
+}
+
+[data-theme="light"] .header-phone {
+    color: var(--secondary) !important;
+}
+
+[data-theme="light"] .header-phone:hover {
+    color: var(--primary) !important;
+}
+
+/* Dynamic Fact Counter Cards */
+[data-theme="light"] .funfact-box {
+    background: #ffffff !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+[data-theme="light"] .funfact-box.active,
+[data-theme="light"] .funfact-box:hover {
+    background: #f7f9fa !important;
+}
+
+[data-theme="light"] .funfact-box .funfact-header .title {
+    color: var(--secondary) !important;
+}
+
+[data-theme="light"] .funfact-box .funfact-footer .number {
+    color: var(--primary) !important;
+}
+
+/* Input elements in forms */
+[data-theme="light"] input,
+[data-theme="light"] textarea,
+[data-theme="light"] select {
+    background: #ffffff !important;
+    color: var(--primary) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+/* Light Mode Hero Section & Global Gradients Overrides */
+[data-theme="light"] .section-title.section-title2,
+[data-theme="light"] .hero-sec .hero-bottom h2,
+[data-theme="light"] .about-hero-sec .hero-bottom h2,
+[data-theme="light"] .awards-box .awards-inner h4,
+[data-theme="light"] .contact-sec .contact-content h3,
+[data-theme="light"] .faq-page .hero-sec .hero-bottom h2:first-child {
+    background: linear-gradient(90deg, #0a0a0a 16%, #777777 140%) !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+[data-theme="light"] .hero-sec .hero-inner .hero-video video {
+    filter: invert(1) !important;
+}
+
+/* FAQ Light Theme Overrides */
+[data-theme="light"] .faq-item {
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+[data-theme="light"] .faq-item .accordion-header button[aria-expanded="true"] {
+    color: var(--primary) !important;
+}
+
+[data-theme="light"] .faq-item .accordion-header button[aria-expanded="true"] .plus-icon span {
+    background: var(--primary) !important;
+}
+
+[data-theme="light"] .faq-item .accordion-body p {
+    color: var(--secondary) !important;
+}
+
+[data-theme="light"] .faq-sec .faq-bottom p,
+[data-theme="light"] .faq-sec .faq-bottom p a {
+    color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}

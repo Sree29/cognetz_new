@@ -55,7 +55,7 @@ const ContactV1 = () => {
                     <div className="right d-flex flex-column gap-5 justify-content-center" style={{ paddingLeft: "40px" }}>
                         <div className="d-flex flex-column gap-4">
                             <div className="d-flex flex-column gap-2">
-                                <h4 style={{ color: "#ffffff", fontSize: "18px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
+                                <h4 style={{ color: "var(--primary)", fontSize: "18px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
                                     Our Address
                                 </h4>
                                 <p style={{ color: "var(--secondary)", fontSize: "15px", lineHeight: "1.6", margin: 0 }}>
@@ -64,7 +64,7 @@ const ContactV1 = () => {
                             </div>
 
                             <div className="d-flex flex-column gap-2">
-                                <h4 style={{ color: "#ffffff", fontSize: "18px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
+                                <h4 style={{ color: "var(--primary)", fontSize: "18px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
                                     Our Address
                                 </h4>
                                 <p style={{ color: "var(--secondary)", fontSize: "15px", lineHeight: "1.6", margin: 0 }}>
@@ -73,7 +73,7 @@ const ContactV1 = () => {
                             </div>
 
                             <div className="d-flex flex-column gap-2">
-                                <h4 style={{ color: "#ffffff", fontSize: "18px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
+                                <h4 style={{ color: "var(--primary)", fontSize: "18px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
                                     Our Address
                                 </h4>
                                 <p style={{ color: "var(--secondary)", fontSize: "15px", lineHeight: "1.6", margin: 0 }}>
@@ -84,7 +84,7 @@ const ContactV1 = () => {
 
                         <div className="row g-4">
                             <div className="col-md-6 d-flex flex-column gap-2">
-                                <h4 style={{ color: "#ffffff", fontSize: "18px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
+                                <h4 style={{ color: "var(--primary)", fontSize: "18px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
                                     Email Us
                                 </h4>
                                 <a href="mailto:info@cognetz.com" style={{ color: "var(--secondary)", fontSize: "15px", textDecoration: "none" }}>
@@ -93,7 +93,7 @@ const ContactV1 = () => {
                             </div>
 
                             <div className="col-md-6 d-flex flex-column gap-2">
-                                <h4 style={{ color: "#ffffff", fontSize: "18px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
+                                <h4 style={{ color: "var(--primary)", fontSize: "18px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
                                     Call Us
                                 </h4>
                                 <div className="d-flex flex-column gap-1">

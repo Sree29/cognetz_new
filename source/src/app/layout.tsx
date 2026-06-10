@@ -31,7 +31,7 @@ const urbanist = Urbanist({
 })
 
 export const metadata: Metadata = {
-  title: "Cognetz - Marketing Agency",
+  title: "Cognetz - Home",
   icons: {
     icon: "/assets/images/cognetz_logo.png",
   }
@@ -44,6 +44,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                var theme = localStorage.getItem('theme') || 'dark';
+                document.documentElement.setAttribute('data-theme', theme);
+              })();
+            `,
+          }}
+        />
+      </head>
       <body className={`${arapey.className} ${urbanist.className}`}>
         <ToastContainer />
         <Dependency />

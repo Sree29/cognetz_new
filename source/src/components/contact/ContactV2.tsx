@@ -20,7 +20,7 @@ const ContactV2 = () => {
                         <div className="col-lg-6 d-flex flex-column gap-5">
                             <div className="d-flex flex-column gap-4">
                                 <div className="d-flex flex-column gap-3">
-                                    <h4 style={{ color: "#ffffff", fontSize: "20px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
+                                    <h4 style={{ color: "var(--primary)", fontSize: "20px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
                                         Our Address
                                     </h4>
                                     <p style={{ color: "var(--secondary)", fontSize: "16px", lineHeight: "1.6", margin: 0 }}>
@@ -29,7 +29,7 @@ const ContactV2 = () => {
                                 </div>
 
                                 <div className="d-flex flex-column gap-3">
-                                    <h4 style={{ color: "#ffffff", fontSize: "20px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
+                                    <h4 style={{ color: "var(--primary)", fontSize: "20px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
                                         Our Address
                                     </h4>
                                     <p style={{ color: "var(--secondary)", fontSize: "16px", lineHeight: "1.6", margin: 0 }}>
@@ -38,7 +38,7 @@ const ContactV2 = () => {
                                 </div>
 
                                 <div className="d-flex flex-column gap-3">
-                                    <h4 style={{ color: "#ffffff", fontSize: "20px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
+                                    <h4 style={{ color: "var(--primary)", fontSize: "20px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
                                         Our Address
                                     </h4>
                                     <p style={{ color: "var(--secondary)", fontSize: "16px", lineHeight: "1.6", margin: 0 }}>
@@ -49,7 +49,7 @@ const ContactV2 = () => {
 
                             <div className="row g-4">
                                 <div className="col-md-6 d-flex flex-column gap-3">
-                                    <h4 style={{ color: "#ffffff", fontSize: "20px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
+                                    <h4 style={{ color: "var(--primary)", fontSize: "20px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
                                         Email Us
                                     </h4>
                                     <a href="mailto:info@cognetz.com" style={{ color: "var(--secondary)", fontSize: "16px", textDecoration: "none", transition: "color 0.3s" }} className="with-border">
@@ -58,7 +58,7 @@ const ContactV2 = () => {
                                 </div>
 
                                 <div className="col-md-6 d-flex flex-column gap-3">
-                                    <h4 style={{ color: "#ffffff", fontSize: "20px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
+                                    <h4 style={{ color: "var(--primary)", fontSize: "20px", fontWeight: "600", textTransform: "uppercase", letterSpacing: "1px", margin: 0 }}>
                                         Call Us
                                     </h4>
                                     <div className="d-flex flex-column gap-1">
@@ -76,7 +76,7 @@ const ContactV2 = () => {
                         {/* Right Column: Contact Form */}
                         <div className="col-lg-6">
                             <form id="contactForm" className="contact-form" onSubmit={handleForm}>
-                                <h3 style={{ color: "#ffffff", fontSize: "36px", fontWeight: "500", marginBottom: "40px" }}>
+                                <h3 style={{ color: "var(--primary)", fontSize: "36px", fontWeight: "500", marginBottom: "40px" }}>
                                     Ready to Get Started?
                                 </h3>
 
