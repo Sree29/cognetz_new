@@ -9,6 +9,16 @@ const ThemeToggle = () => {
         const currentTheme = storedTheme || (document.documentElement.getAttribute("data-theme") as "light" | "dark") || "dark";
         setTheme(currentTheme);
         document.documentElement.setAttribute("data-theme", currentTheme);
+
+        const handleThemeChange = (e: Event) => {
+            const customEvent = e as CustomEvent<"light" | "dark">;
+            setTheme(customEvent.detail);
+        };
+
+        window.addEventListener("theme-change", handleThemeChange);
+        return () => {
+            window.removeEventListener("theme-change", handleThemeChange);
+        };
     }, []);
 
     const toggleTheme = () => {
@@ -16,6 +26,7 @@ const ThemeToggle = () => {
         setTheme(newTheme);
         document.documentElement.setAttribute("data-theme", newTheme);
         localStorage.setItem("theme", newTheme);
+        window.dispatchEvent(new CustomEvent("theme-change", { detail: newTheme }));
     };
 
     return (
