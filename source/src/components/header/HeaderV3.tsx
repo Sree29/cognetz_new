@@ -53,6 +53,10 @@ const HeaderV3 = () => {
             {/* Sidebar */}
             <div className={`header-sidebar-wrap ${isSidebarActive ? "active" : ""}`}>
                 <div className="header-sidebar-content">
+                    <div className="sidebar-theme-toggle">
+                        <ThemeToggle />
+                    </div>
+
                     <span className="close-header-sidebar" onClick={handleCloseClick}>
                         <i className="las la-times" />
                     </span>

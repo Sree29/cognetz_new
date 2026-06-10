@@ -660,6 +660,13 @@ a {
     font-size: 22px;
 }
 
+.header-sidebar-wrap .header-sidebar-content .sidebar-theme-toggle {
+    position: absolute;
+    left: 64px;
+    top: 42px;
+}
+
+
 .header-sidebar-wrap .header-sidebar-content .header-sidebar-top {
     padding: 36px 64px 0 64px;
     width: 100%;

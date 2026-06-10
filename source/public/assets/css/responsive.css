@@ -373,6 +373,11 @@
         padding-top: 70px;
     }
 
+    .header-sidebar-wrap .header-sidebar-content .sidebar-theme-toggle {
+        left: 25px;
+    }
+
+
     .header-sidebar-wrap .header-sidebar-content .header-sidebar-top ul li {
         gap: 25px;
     }
